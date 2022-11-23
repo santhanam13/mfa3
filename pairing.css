@@ -3,7 +3,7 @@ body{
     color: white;
      
     margin: 20px;
-    font-family:'Rubik';
+    font-family:'Rubik', sans-serif;
 }
 
 
@@ -16,6 +16,7 @@ body{
     left: 220px;
     top: 165px;
     border-radius: 15px;
+    z-index: 2;
 
 }
 
@@ -29,88 +30,34 @@ body{
 .jeremy p{
     margin-left:30px;
     margin-top: 50px;
+    position: absolute;
+    top: 120px;
 }
 
 .jeremy h1{
     margin-left:30px;
     font-weight: 100px;
+    font-weight: 300;
+    position: absolute;
+    top: 170px;
 
 }
 
 .daily{
-    width: 130px;
-     
+    width: 12px; 
     position: absolute;
-    left: 215px;
-    top:550px;
+    left: 218px;
+    top:530px;
     border-radius: 15px;
-     
+    z-index: 1;
+    padding-top: 25px;
 
 }
 
 .daily p{
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
-
-/* .work0{
-    background-color: orange;
-}
-
-.work1{
-    background-color:RGB(29, 32, 75,255) ;
-    width: 150px;
-}
-
-.play1{
-    background-color:RGB(29, 32, 75,255) ;
-    width: 150px;
-}
-
-.study1{
-
-    background-color:RGB(29, 32, 75,255) ;
-    width: 150px;
-
-}
-
-.excerise1{
-    background-color:RGB(29, 32, 75,255) ;
-    width: 150px;
-}
-
-.social1{
-    background-color:RGB(29, 32, 75,255) ;
-    width: 150px;
-}
-
-.selfcare1{
-    background-color:RGB(29, 32, 75,255) ;
-    width: 150px;
-}
-
-.main{
-
-    display: flex;
-    height: 600px;
-    width: 900px;
-    position: absolute;
-    justify-content: space-between;
-    top: 100px;
-    left: 500px;
-}
-
-.content{
-    display: flex;
-    justify-content: space-between;
-    width: 900px;
-    height: 600px;
-    position: absolute;
-    top: 400px;
-    left: 500px;
-} */
-
-
 .main{
     display: flex;
     flex-wrap: wrap;
@@ -136,6 +83,12 @@ body{
     border-radius: 20px;
     margin-left: 30px;
 }
+
+.dappa1 img{
+    width: 60px;
+    height: 50px;
+
+}
      
 
 .dappa2{
@@ -149,6 +102,24 @@ body{
     top:45px;
 }
 
+.dappa2 img{
+    position: absolute;
+    top:27px;
+}
+
+.dappa2 h3{
+    margin-left: 40px;
+}
+
+.dappa2 h1{
+    margin-left: 40px;
+
+}
+
+.dappa2 p{
+    margin-left: 40px;
+}
+
 .daily{
     background-color: #1D204B;
     height: 100px;
@@ -156,9 +127,13 @@ body{
 }
 
 #work{
-    margin-left:195px;
-    margin-top: 10px;
+    margin-left:200px;
+    margin-top: 0px;
 }
 .dappa2 h1{
     font-size: 38px;
+    font-weight: 300;
 }
+.day{
+    color:  hsl(235, 45%, 61%);
+ }
